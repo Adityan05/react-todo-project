@@ -1,0 +1,38 @@
+.task {
+  min-height: 60px;
+  word-break: break-word;
+  flex-shrink: 0;
+  width: 100%;
+  border-radius: 8px;
+  color: #ffdde1;
+  display: flex;
+  gap: 3px;
+  padding: 10px 10px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #1b353f;
+}
+#tick {
+  width: 10%;
+  transition: 0.15s ease;
+  font-size: 28px;
+  color: rgb(21, 165, 255);
+  cursor: pointer;
+}
+#tick:hover {
+  scale: 1.4;
+  color: greenyellow;
+}
+.task p {
+  width: 90%;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  white-space: normal; /* Allow text to wrap */
+}
